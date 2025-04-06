@@ -1,6 +1,10 @@
 import java.util.List;
 import java.util.ArrayList;
 
+/**
+ * This class represents a student who can register for courses.
+ * It stores student name and id.
+ */
 public class Student extends Person implements Gradable{
     private double gpa;
     List<Course> enrolledCourses = new ArrayList<>();
