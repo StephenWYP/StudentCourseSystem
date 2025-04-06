@@ -1,3 +1,6 @@
+/**
+ * This class represents a course with a name, id, and capacity.
+ */
 public class Course {
     private String courseId;
     private String courseName;
